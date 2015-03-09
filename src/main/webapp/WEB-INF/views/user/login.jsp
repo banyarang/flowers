@@ -1,75 +1,156 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="Keywords" content="로그인" />
-<meta name="Description" content="로그인" />
-<link rel="stylesheet" href="../resources/css/screen.css" type="text/css" media="screen" />
-<title>로그인</title>
-<script type="text/javascript">
-//<![CDATA[
-    function login() {
-        var form = document.getElementById("loginForm");
-        //TODO 유효성 검사
-        return true;
-    }        
-//]]>
-</script>          
-</head>
-<body>
- 
-<div id="wrap">
- 
-    <div id="header">
-        <%@ include file="../inc/header.jsp" %>
-    </div>
- 
-    <div id="main-menu">
-        <%@ include file="../inc/main-menu.jsp" %>
-    </div>
- 
-    <div id="container">
-        <div id="content" style="min-height: 800px;">
-            <div id="url-navi">회원</div>
- 
-<!-- 본문 시작 -->
-<h1>로그인</h1>
-<form id="loginForm" action="login" method="post" onsubmit="return login()">
-<table>
-<tr>
-    <td style="width: 200px;">Email</td>
-    <td style="width: 390px"><input type="text" name="email" style="width: 99%;" /></td>
-</tr>
-<tr>
-    <td>비밀번호(Password)</td>
-    <td><input type="password" name="passwd" style="width: 99%;" /></td>
-</tr>
-</table>
-<div style="text-align: center;padding-bottom: 15px;">
-    <input type="submit" value="확인" />
-    <input type="button" value="회원가입" onclick="location.href='signUp'" />
-</div>
-</form>
-<!--  본문 끝 -->
- 
-        </div><!-- content 끝 -->
-    </div><!--  container 끝 -->
-   
-    <div id="sidebar">
-        <%@ include file="notLoginUsers-menu.jsp" %>
-    </div>
-   
-    <div id="extra">
-        <%@ include file="../inc/extra.jsp" %>
-    </div>
- 
-    <div id="footer">
-        <%@ include file="../inc/footer.jsp" %>
-    </div>
- 
-</div>
- 
-</body>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Portal Template</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="../resources/css/bootstrap.min.css" type="text/css" media="screen" />
+
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="../resources/css/styles.css" type="text/css" media="screen" />
+	</head>
+	<body>
+
+
+	<header class="masthead">
+  		<div class="container">
+    		<div class="row">
+      			<div class="col col-sm-6">
+        			<h1><a href="#" title="welcome to flowers's world">Flowers</a>
+          			<p class="lead">flowers's world</p></h1>
+      			</div>
+
+    		</div>
+  		</div>
+  
+  		<div id="navi">
+        	<%@ include file="../inc/navi.jsp" %>
+    	</div>
+    
+  		<div class="container">
+			<div class="row">
+      			<div class="col col-sm-12">
+        
+        			<div class="panel">
+        				<div class="panel-body">
+          					You may want to put some news here  <span class="glyphicon glyphicon-heart-empty"></span>
+        				</div>
+        			</div>
+        
+      			</div>
+  			</div>
+  		</div>
+	</header>
+
+	<!-- Begin Body -->
+	<div class="container">
+		<div class="row">
+			<div class="col col-sm-3">
+				<div id="sidebar">
+	      			<ul class="nav nav-stacked">
+	                    <li><h3 class="highlight">Channels <i class="glyphicon glyphicon-dashboard pull-right"></i></h3></li>
+	                  	<li><a href="#">Link</a></li>
+	          			<li><a href="#">Link</a></li>
+					</ul>
+				</div>
+			</div>  
+			<div class="col col-sm-9">
+				<div class="panel">
+					<h1>The Top Stories from Around</h1>
+	              
+	              	<div class="row">
+	              		<div class="col col-sm-8">
+	                  		<img src="http://s.bootply.com/assets/example/bg_iphone.png" class="img-responsive">
+	                	</div> 
+	        			<div class="col col-sm-4">
+	                  		<img src="//placehold.it/400x180/FF3333/FFF" class="img-responsive">
+	                  		<h4>Aside</h4>
+	                  	<hr>
+	                  		<img src="//placehold.it/400x180/FF3333/FFF" class="img-responsive">
+						<h4>Aside 2</h4>
+						</div>   
+					</div>
+	        
+	              	<h2>Content</h2>
+	                Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+	                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+	                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+	                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+	                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+	              
+	              
+	              	<h2>Content</h2>
+	                Rrem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+	                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+	                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+	                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+	                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+	              	<br><br>
+	                <button class="btn btn-default">More</button>
+	                
+	                <hr>
+	              	
+	                <h2>Content</h2>
+	                <img src="//placehold.it/150x100/EEEEEE" class="img-responsive pull-right"> Farmhand ida quae ab illo inventore veritatis et quasi architecto beatae vitae 
+	                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+	                eos qui ratione voluptatem sequi nesciunt. I met him on the Internet. He's a French model. Qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+	                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+	                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+	              	<br><br>
+	                <button class="btn btn-default">More</button>
+	                
+	                <hr>
+	                
+					<div class="row">
+						<div class="col col-sm-6">
+	                    	<img src="/assets/example/bg_smartphones.jpg" class="img-responsive">
+	                    
+	                  	</div> 
+	                  	<div class="col col-sm-6">
+	                    	<h1>There is still a lot to be said about the Responsive Web.</h1>
+	                  	</div>   
+	                </div>
+	                
+	                <hr>
+	              
+	              	<h2>Responsive Text</h2>
+	      			Eeaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+	                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+	                eos qui ratione voluptatem sequi nesciunt. Bootply is this awesomeness. Editor, prototype tool, adipisci velit, 
+	                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+	                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+	              
+	                <hr>
+	                
+	              	<h2>Responsive Images</h2>
+	      			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+	                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+	                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+	                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+	                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+	                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+	              
+	                <hr>
+	                
+	              	<h2>Media Queries</h2>
+	      			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+	                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+	                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+	                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+	                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+	                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+	              
+				</div>
+	      	</div> 
+	  	</div>
+	</div>
+
+	<!-- script references -->
+		<script src="../resources/js/jquery-1.11.2.js"></script>
+		<script src="../resources/js/bootstrap.min.js"></script>
+	</body>
 </html>
