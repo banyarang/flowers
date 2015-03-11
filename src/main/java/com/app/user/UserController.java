@@ -15,6 +15,11 @@ public class UserController {
 
 	@Autowired
     private UserService userService;
+
+	@RequestMapping(value="/", method=RequestMethod.GET)
+	public String user() {
+		return "user/login";
+	}
 	
 	@RequestMapping(value="/signUp", method=RequestMethod.GET)
 	public String signUp() {
