@@ -35,7 +35,7 @@
 		<div class="header">
 			<div>
 				<div class="logo">
-					<a href="index.html"><img src="../resources/images/logo.png" alt="" ></a>
+					<a href="index.html"><img src="../resources/images/logo.png" alt="Home" ></a>
 				</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -44,12 +44,11 @@
 					<div class="top-nav">
 						<span class="menu"> </span>
 						<ul>
-							<li class="active" ><a href="index.html" >하나  </a> </li>
-							<li><a href="events.html" data-hover="EVENTS" > EVENTS</a></li>
-							<li><a href="404.html" data-hover="WINNERS"> WINNERS </a></li>
-							<li><a href="contact.html" data-hover="SUBMIT"> SUBMIT</a></li>
-							<li><a href="contact.html" data-hover="CONTACT">CONTACT </a></li>
-							<li><a href="login.html" data-hover="LOGIN">LOGIN </a></li>
+							<li><a href="events.html" data-hover="EVENTS" >EVENTS</a></li>
+							<li><a href="404.html" data-hover="WINNERS">WINNERS</a></li>
+							<li><a href="contact.html" data-hover="SUBMIT">SUBMIT</a></li>
+							<li><a href="contact.html" data-hover="CONTACT">CONTACT</a></li>
+							<li><a href="login.html" data-hover="LOGIN">LOGIN</a></li>
 						</ul>
 					</div>
 				<div class="clearfix"> </div>

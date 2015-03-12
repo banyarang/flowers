@@ -1,15 +1,4 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
-
-/*--
-body {
-	font-family: 'Jeju Gothic', serif;
-	font-size: 13px;
-    line-height: 21px;
-	font-weight: 300;
-	color: #000;
-}
---*/
 
 body {
 	font-family: 'Nanum Gothic', serif;
@@ -40,8 +29,8 @@ body {
 .top-nav{
 	float:left;
 	margin-top: 0.2em;
+	font-weight: bold;
 }
-/*----*/
 .top-nav ul li{
 	display: inline-block;
 }
@@ -50,7 +39,7 @@ body {
 	display: inline-block;
 	margin: 0 2em 0 0;
 	outline: none;
-	color: #838383;
+	color: #000000;
 	text-decoration: none;
 	letter-spacing: 1px;
 	font-size: 1.25em;
