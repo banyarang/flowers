@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+/*--
+body {
+	font-family: 'Jeju Gothic', serif;
+	font-size: 13px;
+    line-height: 21px;
+	font-weight: 300;
+	color: #000;
+}
+--*/
+
+body {
+	font-family: 'Nanum Gothic', serif;
+	font-size: 13px;
+    line-height: 21px;
+	font-weight: 300;
+	color: #000;
+}
+
+
+/*-- header --*/
+.header {
+	padding: 0 1em;
+	border-bottom:1px solid #6d6d6d;
+}
+.logo {
+	float:left;
+}
+.header-top {
+	padding: 3em 0 0;
+}
+.header-top-on{
+	float:right;
+	padding: 4em 0 0;
+}
+
+/*-- navi --*/
+.top-nav{
+	float:left;
+	margin-top: 0.2em;
+}
+/*----*/
+.top-nav ul li{
+	display: inline-block;
+}
+.top-nav ul li a {
+	position: relative;
+	display: inline-block;
+	margin: 0 2em 0 0;
+	outline: none;
+	color: #838383;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 1.25em;
+}
+.top-nav ul li a::before {
+	color: #FF0000;
+	content: attr(data-hover);
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+.top-nav ul li a:hover::before,
+.top-nav ul li a:focus::before {
+	opacity: 1;
+}
+.top-nav ul li.active a {
+	color:#FF0000;
+}

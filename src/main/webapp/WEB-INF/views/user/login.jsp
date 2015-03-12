@@ -1,4 +1,5 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,15 +11,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog Post - Start Bootstrap Template</title>
+    <title>Flowers</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
-    <!-- 
-    <link href="../resources/css/blog-post.css" rel="stylesheet">
- 	-->
+    <link href="../resources/css/style.css" rel="stylesheet">
  	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,48 +25,37 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-	<!-- head -->
-	<div class="container">
-	    <div class="row">
-			<div class="col col-sm-6">
-	        	<h1><a href="#" title="scroll down for your viewing pleasure">Flowers</a>
-	        	<!-- 
-				<p class="lead">2-column Layout + Theme for Bootstrap 3</p></h1>
-	      	 	-->
-	      	</div>
-		</div>
-	</div>
 	
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">menu1</a>
-                    </li>
-                    <li>
-                        <a href="#">menu2</a>
-                    </li>
-                    <li>
-                        <a href="#">menu3</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+	<!--header-->
+	<div class="container">
+		<div class="header">
+			<div>
+				<div class="logo">
+					<a href="index.html"><img src="../resources/images/logo.png" alt="" ></a>
+				</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!---->
+				<div class="header-bottom">
+					<div class="top-nav">
+						<span class="menu"> </span>
+						<ul>
+							<li class="active" ><a href="index.html" >하나  </a> </li>
+							<li><a href="events.html" data-hover="EVENTS" > EVENTS</a></li>
+							<li><a href="404.html" data-hover="WINNERS"> WINNERS </a></li>
+							<li><a href="contact.html" data-hover="SUBMIT"> SUBMIT</a></li>
+							<li><a href="contact.html" data-hover="CONTACT">CONTACT </a></li>
+							<li><a href="login.html" data-hover="LOGIN">LOGIN </a></li>
+						</ul>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
 
     <!-- Page Content -->
     <div class="container">
