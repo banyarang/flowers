@@ -30,6 +30,7 @@ body {
 	float:left;
 	margin-top: 0.2em;
 	font-weight: bold;
+	font-size: 1.25em;
 }
 .top-nav ul li{
 	display: inline-block;
@@ -45,7 +46,7 @@ body {
 	font-size: 1.25em;
 }
 .top-nav ul li a::before {
-	color: #FF0000;
+	color: #DC143C;
 	content: attr(data-hover);
 	position: absolute;
 	opacity: 0;
@@ -56,5 +57,5 @@ body {
 	opacity: 1;
 }
 .top-nav ul li.active a {
-	color:#FF0000;
+	color:#DC143C;
 }
