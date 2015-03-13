@@ -25,7 +25,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.app.user" />
+	<context:component-scan base-package="com.app.flowers" />
 	
 	<mybatis-spring:scan base-package="com.app.mybatis"/>
 	

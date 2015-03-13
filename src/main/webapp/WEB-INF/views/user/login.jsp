@@ -15,7 +15,10 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
+	
+	<!-- fontawesome Core CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	
     <!-- Custom CSS -->
     <link href="../resources/css/style.css" rel="stylesheet">
  	
