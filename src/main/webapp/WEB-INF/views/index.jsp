@@ -36,186 +36,310 @@
 	<!--header-->
 	<div class="container">
 		<div class="header">
-			<div>
-				<div class="logo">
-					<a href="index.html"><img src="./resources/images/logo.png" alt="Home" ></a>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+	
 			<div class="header-bottom">
+				
 				<div class="top-nav">
 					<span class="menu"> </span>
-					<ul>
-						<li><a href="events.html" data-hover="EVENTS" >EVENTS</a></li>
-						<li><a href="404.html" data-hover="WINNERS">WINNERS</a></li>
-						<li><a href="contact.html" data-hover="SUBMIT">SUBMIT</a></li>
-						<li><a href="contact.html" data-hover="CONTACT">CONTACT</a></li>
-						<li><a href="login.html" data-hover="LOGIN">LOGIN</a></li>
-					</ul>
+						<ul>
+							<li class="active" ><div class="logo">
+								<a href="index.html"><img src="./resources/images/logo.png" alt="" ></a>
+							</div> </li>
+							<li><a href="events.html" data-hover="ABOUT" >ABOUT</a></li>
+							<li><a href="404.html" data-hover="ORG">ORG</a></li>
+							<li><a href="contact.html" data-hover="BLOG">BLOG</a></li>
+						</ul>
+						<!--script-->
+					<script>
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(500, function(){
+							});
+						});
+					</script>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-			
-            <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
-
-				<div class="well">
-				
-	                <!-- Date/Time -->
-	                <p><i class="fa fa-camera-retro"></i> Posted on August 24, 2013 at 9:00 PM</p>
-	
-	                <!-- Preview Image -->
-	                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+		<!---->
+		<div class="container">
+			<div class="banner">
+				<div class="banner-matter">
+					<i class="line"> </i>
+						<h1>where you choose the winner</h1>
+					<i class="line"> </i>
 				</div>
-	
-				<div class="well">
-	                <!-- Post Content -->
-	                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
-	                <p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
-	                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
-	
+				<p class="help">Help shape the next awi awards ceremony.  click the icon to tell us which of these creatives you Love / Don't Love.</p>
+				<!--manage-->
+		 <div class="banner-top">
+			<div class="wmuSlider example1">
+				   <div class="wmuSliderWrapper">
+					   <article style="position: absolute; width: 100%; opacity: 0;">
+							<div class="banner-bottom">
+								<a href="single.html"><img class="img-responsive line-in" src="images/banner.jpg" alt=""  /></a>
+								<div class="dummy-text">
+									<ul class="social-circle">			
+										<li><a href="single.html"><i > </i></a></li>
+										<li><a href="single.html"><i class="break"> </i></a></li>
+									</ul>
+									<div class="doe">
+										<h6>the huntress</h6>
+										<span>By <b>Jane Doe</b></span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at auctor orci. Nullasc arcu lorem, consectetur eu tristique idnui hendrerit at massa. Vivamus velit ante, blandit eget suscipit ut, volutpat ac erasti augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere .</p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+					 	</article>
+					 	 <article style="position: absolute; width: 100%; opacity: 0;">
+							<div class="banner-bottom">
+								<a href="single.html"><img class="img-responsive line-in" src="images/banner1.jpg" alt=""  /></a>
+								<div class="dummy-text">
+									<ul class="social-circle">			
+										<li><a href="single.html"><i > </i></a></li>
+										<li><a href="single.html"><i class="break"> </i></a></li>
+									</ul>
+									<div class="doe">
+										<h6>the huntress</h6>
+										<span>By <b>Jane Doe</b></span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at auctor orci. Nullasc arcu lorem, consectetur eu tristique idnui hendrerit at massa. Vivamus velit ante, blandit eget suscipit ut, volutpat ac erasti augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere .</p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+					 	</article>
+					 	 <article style="position: absolute; width: 100%; opacity: 0;">
+							<div class="banner-bottom">
+								<a href="single.html"><img class="img-responsive line-in" src="images/banner.jpg" alt=""  /></a>
+								<div class="dummy-text">
+									<ul class="social-circle">			
+										<li><a href="single.html"><i > </i></a></li>
+										<li><a href="single.html"><i class="break"> </i></a></li>
+									</ul>
+									<div class="doe">
+										<h6>the huntress</h6>
+										<span>By <b>Jane Doe</b></span>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at auctor orci. Nullasc arcu lorem, consectetur eu tristique idnui hendrerit at massa. Vivamus velit ante, blandit eget suscipit ut, volutpat ac erasti augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere .</p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+					 	</article>
+					 </div>
+	               
 	            </div>
-
-                <!-- Blog Comments -->
-
-                <!-- Comments Form -->
-                <div class="well">
-                    <h4>Leave a Comment:</h4>
-                    <form role="form">
-                        <div class="form-group">
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-
-
-                <!-- Posted Comments -->
-                <div class="well">
-	                <!-- Comment -->
-	                <div class="media">
-	                    <a class="pull-left" href="#">
-	                        <img class="media-object" src="http://placehold.it/64x64" alt="">
-	                    </a>
-	                    <div class="media-body">
-	                        <h4 class="media-heading">Start Bootstrap
-	                            <small>August 25, 2014 at 9:30 PM</small>
-	                        </h4>
-	                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-	                    </div>
-	                </div>
-	
-	                <!-- Comment -->
-	                <div class="media">
-	                    <a class="pull-left" href="#">
-	                        <img class="media-object" src="http://placehold.it/64x64" alt="">
-	                    </a>
-	                    <div class="media-body">
-	                        <h4 class="media-heading">Start Bootstrap
-	                            <small>August 25, 2014 at 9:30 PM</small>
-	                        </h4>
-	                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-	                        <!-- Nested Comment -->
-	                        <div class="media">
-	                            <a class="pull-left" href="#">
-	                                <img class="media-object" src="http://placehold.it/64x64" alt="">
-	                            </a>
-	                            <div class="media-body">
-	                                <h4 class="media-heading">Nested Start Bootstrap
-	                                    <small>August 25, 2014 at 9:30 PM</small>
-	                                </h4>
-	                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-	                            </div>
-	                        </div>
-	                        <!-- End Nested Comment -->
-	                    </div>
-	                </div>
+	            <script src="js/jquery.wmuSlider.js"></script>
+				<script>				
+					 $('.example1').wmuSlider({
+						 pagination:false,
+					});         
+				</script> 	
+          	         
 				</div>
-            </div>
-
-            <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Blog Search Well -->
-                <div class="well">
-                    <h4>Log in</h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
-
-                <!-- Blog Categories Well -->
-                <div class="well">
-                    <h4>Blog Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
-
-    </div>
-    <!-- /.container -->
+			</div>
+		</div>
+		<!---->
+			<div class="container">
+			<div class="content">
+				<div class="content-top">
+					<h2>inSPIRED, inTELLIGENT, inCREDIBLE <span>(latest entries)</span></h2>
+					<i class="line"> </i>
+				</div>
+				<p class="you">award the inspired brings together some of today's brightest artists, designers and photographers for your votes. Browse the profiles of the most recent contributors and cast your vote for the final 10 to reach our ceremony.</p>
+				<div class="top-on">
+				<div class="content-bottom">
+					<div class="col-md-6 top-pic">
+						<div class="col-md-6 bottom-pic">
+						<a href="single.html"><img class="img-responsive " src="images/pic.jpg" alt=""  /></a>
+						</div>
+						<div class="col-md-6 bottom-doe">
+						<h6>Jane Doe</h6>
+							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 top-pic">
+					<div class="col-md-6 bottom-pic">
+						<a href="single.html"><img class="img-responsive " src="images/pic1.jpg" alt=""  /></a>
+						</div>
+						<div class="col-md-6 bottom-doe">
+						<h6>Anne Other</h6>
+							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="content-bottom">
+					<div class="col-md-6 top-pic">
+						<div class="col-md-6 bottom-pic">
+						<a href="single.html"><img class="img-responsive " src="images/pic2.jpg" alt=""  /></a>
+						</div>
+						<div class="col-md-6 bottom-doe">
+						<h6>Joe Bloggs</h6>
+							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 top-pic">
+					<div class="col-md-6 bottom-pic">
+						<a href="single.html"><img class="img-responsive " src="images/pic3.jpg" alt=""  /></a>
+						</div>
+						<div class="col-md-6 bottom-doe">
+						<h6>John Somebody</h6>
+							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="content-bottom">
+					<div class="col-md-6 top-pic">
+						<div class="col-md-6 bottom-pic">
+						<a href="single.html"><img class="img-responsive " src="images/pic4.jpg" alt=""  /></a>
+						</div>
+						<div class="col-md-6 bottom-doe">
+						<h6>Timothy Consecteur</h6>
+							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 top-pic">
+					<div class="col-md-6 bottom-pic">
+						<a href="single.html"><img class="img-responsive " src="images/pic5.jpg" alt=""  /></a>
+						</div>
+						<div class="col-md-6 bottom-doe">
+						<h6>Laura Ipsum</h6>
+							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="content-bottom">
+					<div class="col-md-6 top-pic">
+						<div class="col-md-6 bottom-pic">
+						<a href="single.html"><img class="img-responsive " src="images/pic6.jpg" alt=""  /></a>
+						</div>
+						<div class="col-md-6 bottom-doe">
+						<h6>Pierre Lorem</h6>
+							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 top-pic">
+					<div class="col-md-6 bottom-pic">
+						<a href="single.html"><img class="img-responsive " src="images/pic7.jpg" alt=""  /></a>
+						</div>
+						<div class="col-md-6 bottom-doe">
+						<h6>Wan More</h6>
+							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				</div>
+				<i class="line"> </i>
+				<!---->
+				<div class="bottom-content">
+					<div class="col-md-6 award">
+						<h3>awi awards ceremony</h3>						
+						<p>The ‘Award The Inspired’ awards ceremony. The Fuji Film Gallery, Holland. </p>
+						<div class="inverted">
+							<p class="date">4th October to 12 October 2012 10am to 4pm.</p>                       
+							<a href="single.html" class="only">Invitation Only</a>
+							<div class="clearfix"> </div>
+						</div>
+						<a href="single.html"><img class="img-responsive " src="images/po.jpg" alt=""  />
+						<div class="share">
+							<p>Share <i class="down"> </i></p>
+							<ul class="social-in tin-in">
+								<li><i> </i></li>						
+								<li><i class="tin"> </i></li>
+								<li><i class="message"> </i></li>
+							</ul>
+						</div>	
+							</a>
+							<div class="clearfix"> </div>
+						
+					</div>
+					<div class="col-md-6 award-bottom">
+						<h3>Have You Been Invited?</h3>
+						<p>If you have an awards ceremony invitation code, please enter it along with your e-mail address in the form below.</p>
+						<form >					    	
+						   <input type="text" value="Your E-mail..">
+						   <input type="text" value="Invitation Code..">
+						   <input type="submit" value="Submit RSVP">	
+						   </form>
+						   <p><a href="single.html">Don’t have an invitation?</a></p>
+						   <a href="index.html" class="logo-bottom"><img src="images/logo-1.png" alt="" ></a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!---->
+	
+		<div class="container">
+		<div class="footer">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed">
+				<h4>navigation</h4>
+				<i class="line"> </i>
+					<ul class="nav-bottom">
+						<li  ><a href="index.html" >HOME  </a> </li>
+						<li><a href="events.html" > EVENTS</a></li>
+						<li><a href="404.html"> WINNERS </a></li>
+						<li><a href="contact.html" > SUBMIT</a></li>
+						<li><a href="contact.html">CONTACT </a></li>
+						<li><a href="login.html">LOGIN </a></li>
+						<li  ><a href="#" >RSVP</a> </li>
+						<li><a href="#" >PRIVACY POLICY</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 amet-sed ">
+				<h4>get in touch</h4>
+				<i class="line"> </i>
+					<ul class="nav-bottom">
+						<li  ><a href="contact.html" >CONTACT US</a> </li>
+						<li><a href="#" >PRIVACY POLICY</a></li>
+						<li><a href="#">TERMS &amp; CONDITIONS </a></li>					
+					</ul>
+					<p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+				</div>
+				<div class="col-md-4 amet-sed ">
+				<h4>share this page</h4>
+				<i class="line"> </i>
+				<ul class="social-in msg-social">
+					<li><a href="#"><i> </i></a></li>						
+					<li><a href="#"><i class="tin"> </i></a></li>
+					<li><a href="#"><i class="message"> </i></a></li>
+					<li><a href="#"><i class="youtube"> </i></a></li>
+				</ul>
+				<p>follow us on twitter:<a href="#">@example</a></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				<p class="footer-class">Copyright &copy; 2015 Inspired Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
+		</div>
+		 <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
 
     <!-- jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
