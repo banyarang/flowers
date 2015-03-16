@@ -45,9 +45,9 @@
 							<li class="active" ><div class="logo">
 								<a href="index.html"><img src="./resources/images/logo.png" alt="" ></a>
 							</div> </li>
-							<li><a href="events.html" data-hover="ABOUT" >ABOUT</a></li>
-							<li><a href="404.html" data-hover="ORG">ORG</a></li>
-							<li><a href="contact.html" data-hover="BLOG">BLOG</a></li>
+							<li><a href="events.html" data-hover="MENU1" >MENU1</a></li>
+							<li><a href="404.html" data-hover="MENU2">MENU2</a></li>
+							<li><a href="contact.html" data-hover="MENU3">MENU3</a></li>
 						</ul>
 						<!--script-->
 					<script>
@@ -61,285 +61,89 @@
 			</div>
 		</div>
 	</div>
-		<!---->
-		<div class="container">
-			<div class="banner">
-				<div class="banner-matter">
-					<i class="line"> </i>
-						<h1>where you choose the winner</h1>
-					<i class="line"> </i>
-				</div>
-				<p class="help">Help shape the next awi awards ceremony.  click the icon to tell us which of these creatives you Love / Don't Love.</p>
-				<!--manage-->
-		 <div class="banner-top">
-			<div class="wmuSlider example1">
-				   <div class="wmuSliderWrapper">
-					   <article style="position: absolute; width: 100%; opacity: 0;">
-							<div class="banner-bottom">
-								<a href="single.html"><img class="img-responsive line-in" src="images/banner.jpg" alt=""  /></a>
-								<div class="dummy-text">
-									<ul class="social-circle">			
-										<li><a href="single.html"><i > </i></a></li>
-										<li><a href="single.html"><i class="break"> </i></a></li>
-									</ul>
-									<div class="doe">
-										<h6>the huntress</h6>
-										<span>By <b>Jane Doe</b></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at auctor orci. Nullasc arcu lorem, consectetur eu tristique idnui hendrerit at massa. Vivamus velit ante, blandit eget suscipit ut, volutpat ac erasti augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere .</p>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-					 	</article>
-					 	 <article style="position: absolute; width: 100%; opacity: 0;">
-							<div class="banner-bottom">
-								<a href="single.html"><img class="img-responsive line-in" src="images/banner1.jpg" alt=""  /></a>
-								<div class="dummy-text">
-									<ul class="social-circle">			
-										<li><a href="single.html"><i > </i></a></li>
-										<li><a href="single.html"><i class="break"> </i></a></li>
-									</ul>
-									<div class="doe">
-										<h6>the huntress</h6>
-										<span>By <b>Jane Doe</b></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at auctor orci. Nullasc arcu lorem, consectetur eu tristique idnui hendrerit at massa. Vivamus velit ante, blandit eget suscipit ut, volutpat ac erasti augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere .</p>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-					 	</article>
-					 	 <article style="position: absolute; width: 100%; opacity: 0;">
-							<div class="banner-bottom">
-								<a href="single.html"><img class="img-responsive line-in" src="images/banner.jpg" alt=""  /></a>
-								<div class="dummy-text">
-									<ul class="social-circle">			
-										<li><a href="single.html"><i > </i></a></li>
-										<li><a href="single.html"><i class="break"> </i></a></li>
-									</ul>
-									<div class="doe">
-										<h6>the huntress</h6>
-										<span>By <b>Jane Doe</b></span>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at auctor orci. Nullasc arcu lorem, consectetur eu tristique idnui hendrerit at massa. Vivamus velit ante, blandit eget suscipit ut, volutpat ac erasti augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere .</p>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-					 	</article>
-					 </div>
-	               
-	            </div>
-	            <script src="js/jquery.wmuSlider.js"></script>
-				<script>				
-					 $('.example1').wmuSlider({
-						 pagination:false,
-					});         
-				</script> 	
-          	         
-				</div>
-			</div>
-		</div>
-		<!---->
-			<div class="container">
-			<div class="content">
-				<div class="content-top">
-					<h2>inSPIRED, inTELLIGENT, inCREDIBLE <span>(latest entries)</span></h2>
-					<i class="line"> </i>
-				</div>
-				<p class="you">award the inspired brings together some of today's brightest artists, designers and photographers for your votes. Browse the profiles of the most recent contributors and cast your vote for the final 10 to reach our ceremony.</p>
-				<div class="top-on">
-				<div class="content-bottom">
-					<div class="col-md-6 top-pic">
-						<div class="col-md-6 bottom-pic">
-						<a href="single.html"><img class="img-responsive " src="images/pic.jpg" alt=""  /></a>
-						</div>
-						<div class="col-md-6 bottom-doe">
-						<h6>Jane Doe</h6>
-							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 top-pic">
-					<div class="col-md-6 bottom-pic">
-						<a href="single.html"><img class="img-responsive " src="images/pic1.jpg" alt=""  /></a>
-						</div>
-						<div class="col-md-6 bottom-doe">
-						<h6>Anne Other</h6>
-							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="content-bottom">
-					<div class="col-md-6 top-pic">
-						<div class="col-md-6 bottom-pic">
-						<a href="single.html"><img class="img-responsive " src="images/pic2.jpg" alt=""  /></a>
-						</div>
-						<div class="col-md-6 bottom-doe">
-						<h6>Joe Bloggs</h6>
-							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 top-pic">
-					<div class="col-md-6 bottom-pic">
-						<a href="single.html"><img class="img-responsive " src="images/pic3.jpg" alt=""  /></a>
-						</div>
-						<div class="col-md-6 bottom-doe">
-						<h6>John Somebody</h6>
-							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="content-bottom">
-					<div class="col-md-6 top-pic">
-						<div class="col-md-6 bottom-pic">
-						<a href="single.html"><img class="img-responsive " src="images/pic4.jpg" alt=""  /></a>
-						</div>
-						<div class="col-md-6 bottom-doe">
-						<h6>Timothy Consecteur</h6>
-							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 top-pic">
-					<div class="col-md-6 bottom-pic">
-						<a href="single.html"><img class="img-responsive " src="images/pic5.jpg" alt=""  /></a>
-						</div>
-						<div class="col-md-6 bottom-doe">
-						<h6>Laura Ipsum</h6>
-							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="content-bottom">
-					<div class="col-md-6 top-pic">
-						<div class="col-md-6 bottom-pic">
-						<a href="single.html"><img class="img-responsive " src="images/pic6.jpg" alt=""  /></a>
-						</div>
-						<div class="col-md-6 bottom-doe">
-						<h6>Pierre Lorem</h6>
-							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-6 top-pic">
-					<div class="col-md-6 bottom-pic">
-						<a href="single.html"><img class="img-responsive " src="images/pic7.jpg" alt=""  /></a>
-						</div>
-						<div class="col-md-6 bottom-doe">
-						<h6>Wan More</h6>
-							<p>Donec tincidunt aliquam urna, in lobortis lorem eleifend eu. pellentesque id emet venenatis erat. Mauris nisl tellus, lorem rhoncus ut iaculis sit amet, imperdietium quis eros. Ut mattis, est sed mattis eras viverra, turpis nibh tempus tellus.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				</div>
-				<i class="line"> </i>
-				<!---->
-				<div class="bottom-content">
-					<div class="col-md-6 award">
-						<h3>awi awards ceremony</h3>						
-						<p>The ‘Award The Inspired’ awards ceremony. The Fuji Film Gallery, Holland. </p>
-						<div class="inverted">
-							<p class="date">4th October to 12 October 2012 10am to 4pm.</p>                       
-							<a href="single.html" class="only">Invitation Only</a>
-							<div class="clearfix"> </div>
-						</div>
-						<a href="single.html"><img class="img-responsive " src="images/po.jpg" alt=""  />
-						<div class="share">
-							<p>Share <i class="down"> </i></p>
-							<ul class="social-in tin-in">
-								<li><i> </i></li>						
-								<li><i class="tin"> </i></li>
-								<li><i class="message"> </i></li>
-							</ul>
-						</div>	
-							</a>
-							<div class="clearfix"> </div>
-						
-					</div>
-					<div class="col-md-6 award-bottom">
-						<h3>Have You Been Invited?</h3>
-						<p>If you have an awards ceremony invitation code, please enter it along with your e-mail address in the form below.</p>
-						<form >					    	
-						   <input type="text" value="Your E-mail..">
-						   <input type="text" value="Invitation Code..">
-						   <input type="submit" value="Submit RSVP">	
-						   </form>
-						   <p><a href="single.html">Don’t have an invitation?</a></p>
-						   <a href="index.html" class="logo-bottom"><img src="images/logo-1.png" alt="" ></a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-		<!---->
+
+	<div class="container">
 	
-		<div class="container">
-		<div class="footer">
-			<div class="footer-top">
-				<div class="col-md-4 amet-sed">
-				<h4>navigation</h4>
-				<i class="line"> </i>
-					<ul class="nav-bottom">
-						<li  ><a href="index.html" >HOME  </a> </li>
-						<li><a href="events.html" > EVENTS</a></li>
-						<li><a href="404.html"> WINNERS </a></li>
-						<li><a href="contact.html" > SUBMIT</a></li>
-						<li><a href="contact.html">CONTACT </a></li>
-						<li><a href="login.html">LOGIN </a></li>
-						<li  ><a href="#" >RSVP</a> </li>
-						<li><a href="#" >PRIVACY POLICY</a></li>
-					</ul>
+		<div class="container-fluid">
+	
+			<!--left-->
+			<div class="col-sm-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">Member</div>
+					<div class="award-bottom">
+							<form >					    	
+								<input type="text" value="Your E-mail..">
+								<input type="text" value="Invitation Code..">
+								<input type="submit" value="Log In">	
+							</form>
+						</div>
 				</div>
-				<div class="col-md-4 amet-sed ">
-				<h4>get in touch</h4>
-				<i class="line"> </i>
-					<ul class="nav-bottom">
-						<li  ><a href="contact.html" >CONTACT US</a> </li>
-						<li><a href="#" >PRIVACY POLICY</a></li>
-						<li><a href="#">TERMS &amp; CONDITIONS </a></li>					
-					</ul>
-					<p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+				<hr>
+				<div class="panel panel-default">
+					<div class="panel-heading">Title</div>
+					<div class="panel-body">Content here..</div>
 				</div>
-				<div class="col-md-4 amet-sed ">
-				<h4>share this page</h4>
-				<i class="line"> </i>
-				<ul class="social-in msg-social">
-					<li><a href="#"><i> </i></a></li>						
-					<li><a href="#"><i class="tin"> </i></a></li>
-					<li><a href="#"><i class="message"> </i></a></li>
-					<li><a href="#"><i class="youtube"> </i></a></li>
-				</ul>
-				<p>follow us on twitter:<a href="#">@example</a></p>
+				<hr>
+				<div class="panel panel-default">
+					<div class="panel-heading">Title</div>
+						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+							Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+							dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+							Aliquam in felis sit amet augue.
+						</div>
 				</div>
-				<div class="clearfix"> </div>
-			</div>
-				<p class="footer-class">Copyright &copy; 2015 Inspired Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
-		</div>
-		 <script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				<hr>
+			</div><!--/left-->
+			
+			<!--center-->
+			<div class="col-sm-9">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>Article Heading</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+						Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+						dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+						Aliquam in felis sit amet augue.</p>
+						<p class="lead"><button class="btn btn-default">Read More</button></p>
+						<p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
+						<ul class="list-inline"><li><a href="#">2 Days Ago</a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 2 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 14 Shares</a></li></ul>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>Article Heading</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+						Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+						dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+						Aliquam in felis sit amet augue.</p>
+						<p class="lead"><button class="btn btn-default">Read More</button></p>
+						<p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
+						<ul class="list-inline"><li><a href="#">4 Days Ago</a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 7 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 56 Shares</a></li></ul>
+					</div>
+				</div>
+				<hr>      
+				<div class="row">
+					<div class="col-xs-12">
+						<h2>Article Heading</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+						Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+						dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+						Aliquam in felis sit amet augue.</p>
+						<p class="lead"><button class="btn btn-default">Read More</button></p>
+						<p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
+						<ul class="list-inline"><li><a href="#">1 Week Ago</a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 4 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 34 Shares</a></li></ul>
+					</div>
+				</div>
+				<hr>
+			</div><!--/center-->
+			
+			<hr>
+		</div><!--/container-fluid-->	
+	
+		
 	</div>
+
 
     <!-- jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
