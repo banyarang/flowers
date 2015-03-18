@@ -33,117 +33,34 @@
 
 <body>
 
-	<!--header-->
-	<div class="container">
-		<div class="header">
 	
-			<div class="header-bottom">
-				
-				<div class="top-nav">
-					<span class="menu"> </span>
-						<ul>
-							<li class="active" ><div class="logo">
-								<a href="index.html"><img src="./resources/images/logo.png" alt="" ></a>
-							</div> </li>
-							<li><a href="events.html" data-hover="MENU1" >MENU1</a></li>
-							<li><a href="404.html" data-hover="MENU2">MENU2</a></li>
-							<li><a href="contact.html" data-hover="MENU3">MENU3</a></li>
-						</ul>
-						<!--script-->
+<!-- Full Body Container -->
+    <!---header---->			
+<div class="boxed-page">  
+	 <div class="container">
+		  <div class="logo">
+			  <a href="index.html"><img src="./resources/images/logo.png" title="" /></a>
+		  </div>
+			 <!---start-top-nav---->
+			 <div class="top-menu">
+				  <span class="menu"> </span> 
+				   <ul>
+						<li class="active"><a href="index.html">HOME</a></li>						
+						<li><a href="about.html">ABOUT</a></li>	
+						<li><a href="contact.html">CONTACT</a></li>						
+						<div class="clearfix"> </div>
+				 </ul>
+			 </div>
+			 <div class="clearfix"></div>
 					<script>
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle(500, function(){
-							});
-						});
+					$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+					});
 					</script>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-	
-		<div class="container-fluid">
-	
-			<!--left-->
-			<div class="col-sm-3">
-				<div class="panel panel-default">
-					<div class="panel-heading">Member</div>
-					<div class="award-bottom">
-							<form >					    	
-								<input type="text" value="Your E-mail..">
-								<input type="text" value="Invitation Code..">
-								<input type="submit" value="Log In">	
-							</form>
-						</div>
-				</div>
-				<hr>
-				<div class="panel panel-default">
-					<div class="panel-heading">Title</div>
-					<div class="panel-body">Content here..</div>
-				</div>
-				<hr>
-				<div class="panel panel-default">
-					<div class="panel-heading">Title</div>
-						<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-							Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-							dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-							Aliquam in felis sit amet augue.
-						</div>
-				</div>
-				<hr>
-			</div><!--/left-->
-			
-			<!--center-->
-			<div class="col-sm-9">
-				<div class="row">
-					<div class="col-xs-12">
-						<h2>Article Heading</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-						Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-						dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-						Aliquam in felis sit amet augue.</p>
-						<p class="lead"><button class="btn btn-default">Read More</button></p>
-						<p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
-						<ul class="list-inline"><li><a href="#">2 Days Ago</a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 2 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 14 Shares</a></li></ul>
-					</div>
-				</div>
-				<hr>
-				<div class="row">
-					<div class="col-xs-12">
-						<h2>Article Heading</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-						Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-						dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-						Aliquam in felis sit amet augue.</p>
-						<p class="lead"><button class="btn btn-default">Read More</button></p>
-						<p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
-						<ul class="list-inline"><li><a href="#">4 Days Ago</a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 7 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 56 Shares</a></li></ul>
-					</div>
-				</div>
-				<hr>      
-				<div class="row">
-					<div class="col-xs-12">
-						<h2>Article Heading</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-						Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
-						dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
-						Aliquam in felis sit amet augue.</p>
-						<p class="lead"><button class="btn btn-default">Read More</button></p>
-						<p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
-						<ul class="list-inline"><li><a href="#">1 Week Ago</a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 4 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 34 Shares</a></li></ul>
-					</div>
-				</div>
-				<hr>
-			</div><!--/center-->
-			
-			<hr>
-		</div><!--/container-fluid-->	
-	
-		
-	</div>
-
+				<!---//End-top-nav---->					
+	 </div>
+</div>
 
     <!-- jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
